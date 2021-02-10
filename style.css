@@ -70,7 +70,9 @@ p {
 #humidity {
   padding: 2px 0px;
 }
-.source-code {
+.footer {
   text-align: center;
+}
+.source-code {
   text-decoration: none;
 }
