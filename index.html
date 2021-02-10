@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Plus Project</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Comfortaa&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+  <script src="https://kit.fontawesome.com/07e2f1c6e5.js" crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <div class="container">
+    <form autocomplete="off" id="search-form" >
+      <input id="search-bar" type="search" placeholder="Enter city">
+      <input id="search" type="submit" value="search">
+     </form>
+
+      <button id="your-location">
+        <i class="fas fa-map-marker-alt"></i>
+      </button>
+      <h1 id="location">
+        Sde Boker
+      </h1>
+      <h2>
+        <section id="temperature">16°C 
+        </section>
+        <section id="dicription">dicription</section>
+      </h2>
+      <h3 id="current-time">
+
+      </h3>
+      
+      <p>
+        <div id="wind">💨Wind: 37 km/h</div>
+        <div id="humidity">💧Humidity: 54%</div>
+      </p>
+      <ul class="forcast">
+        <li>
+          Tomorrow <br>
+          6°C <br>
+          ☀
+        </li>
+        <li>
+          Wednesday
+          <br>
+          -1°C
+          <br>
+          ❄
+        </li>
+        <li>
+          Thursday<br>
+          8°C<br>
+          🌧
+        </li>
+        <li>
+          Friday
+          <br>
+          10°C
+          <br>
+          ☀
+        </li>
+        <li>
+          Saturday
+          <br>
+          9°C
+          <br>
+          🌤
+        </li>
+        <li>
+          Sunday <br>
+          12° <br>
+          ☀
+        </li>
+      </ul>
+  </div>
+  <script src="index.js"></script>
+
+</body>
+
+</html>

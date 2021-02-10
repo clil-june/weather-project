@@ -1,0 +1,72 @@
+.container {
+  background: linear-gradient(white, #d4f0fe);
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 40px;
+  border: solid #b6e4fe;
+  border-radius: 16px;
+  font-family: "Comfortaa", cursive;
+  color: #5199d7;
+  max-height: 650px;
+}
+#search-bar {
+  margin-bottom: 30px;
+  border: 1px solid #5199d7;
+  border-radius: 30px;
+  padding: 8px;
+  box-shadow: rgba(37, 39, 89, 0.08) 0px 8px 8px 0;
+}
+#search {
+  background: none;
+  border: 1px solid #5199d7;
+  border-radius: 20px;
+  margin: 8px;
+  padding: 8px;
+}
+.searchButton {
+  border-radius: 20px;
+  color: #5199d7;
+}
+#your-location {
+  color: #ea4335;
+  border-radius: 15px;
+}
+button {
+  background: white;
+  border: solid 1px #5199d7;
+  padding: 8px 15px;
+  box-shadow: rgba(37, 39, 89, 0.08) 0px 8px 8px 0;
+}
+h1 {
+  margin: 40px 0px;
+  font-size: 36px;
+}
+#dicription {
+  font-size: 16px;
+}
+h3 {
+  font-size: 16px;
+  margin: 20px 0px;
+}
+.forcast {
+  list-style: none;
+  font-size: 12px;
+}
+li {
+  border: solid #b6e4fe;
+  border-radius: 10px;
+  max-width: 90px;
+  text-align: center;
+  margin: 18px;
+  padding: 5px;
+  right: -200px;
+  top: -430px;
+  position: relative;
+}
+p {
+  margin: 60px 0px 0px 0px;
+}
+#wind,
+#humidity {
+  padding: 2px 0px;
+}
