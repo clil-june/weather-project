@@ -55,6 +55,9 @@ h3 {
   list-style: none;
   font-size: 12px;
 }
+#icon {
+  font-size: 50px;
+}
 li {
   border: solid #b6e4fe;
   border-radius: 10px;

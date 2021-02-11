@@ -43,4 +43,8 @@ function showWeather(response){
   let hume=document.querySelector("#humidity");
   let humidity=Math.round(response.data.main.humidity);
   hume.innerHTML=(`<i class="fas fa-tint"></i> Humidity: ${humidity}%`)
+
+  let iconElemant = document.querySelector("#icon");
+  let icon= response.data.weather[0].icon;
+  iconElemant.setAttribute("src", `http://openweathermap.org/img/wn/${icon}@2x.png`);
 }
