@@ -38,9 +38,9 @@ function showWeather(response){
 
   let wind=document.querySelector("#wind");
   let windSpeed= Math.round(response.data.wind.speed);
-  wind.innerHTML=(`💨Wind speed: ${windSpeed} km/h`)
+  wind.innerHTML=(`<i class="fas fa-wind"></i> Wind speed: ${windSpeed} km/h`)
 
   let hume=document.querySelector("#humidity");
   let humidity=Math.round(response.data.main.humidity);
-  hume.innerHTML=(`💧Humidity: ${humidity}%`)
+  hume.innerHTML=(`<i class="fas fa-tint"></i> Humidity: ${humidity}%`)
 }

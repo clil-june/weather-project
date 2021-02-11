@@ -1,3 +1,6 @@
+body {
+  text-transform: capitalize;
+}
 .project {
   background: linear-gradient(white, #d4f0fe);
   max-width: 400px;
