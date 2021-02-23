@@ -51,16 +51,17 @@ function showWeather(response){
 }
 function displayFahr (event){
   event.preventDefault();
-  let fahrTemp= ((temp * 9)/5 +32);
   let temperature = document.querySelector("#temperature");
+  let fahrTemp= ((temp * 9)/5 +32);
   temperature.innerHTML=Math.round(fahrTemp);
 
 }
 function displayCels (event){
   event.preventDefault();
-
+let temperature = document.querySelector("#temperature");
+temperature.innerHTML=Math.round(temp);
 }
-let temp=null;
+//let temp=null;
 
 let fahrLink = document.querySelector("#fahrenheit");
 fahrLink.addEventListener("click", displayFahr);
