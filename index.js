@@ -29,8 +29,8 @@ axios.get(`${apiUrl}&appid${apiKey}`).then(showWeather);
 
 function showWeather(response){
 	let temperature = document.querySelector("#temperature");
-  let temp=Math.round(response.data.main.temp);
-  temperature.innerHTML=(`${temp}`)
+  temp=(response.data.main.temp);
+  temperature.innerHTML=Math.round(`${temp}`)
 
   let discription=document.querySelector("#dicription");
   let disc = response.data.weather[0].description;
@@ -49,16 +49,21 @@ function showWeather(response){
   iconElemant.setAttribute("src", `http://openweathermap.org/img/wn/${icon}@2x.png`);
   
 }
-
-let fahrLink = document.querySelector("#fahrenheit");
-let celsLink = document.querySelector("#celsius");
 function displayFahr (event){
   event.preventDefault();
+  let fahrTemp= ((temp * 9)/5 +32);
   let temperature = document.querySelector("#temperature");
-  let temp=Math.round(response.data.main.temp);
-  let fahrTemp = 
-  temperature.innerHTML= fahrTemp;
+  temperature.innerHTML=Math.round(fahrTemp);
+
 }
+function displayCels (event){
+  event.preventDefault();
 
+}
+let temp=null;
 
+let fahrLink = document.querySelector("#fahrenheit");
 fahrLink.addEventListener("click", displayFahr);
+
+let celsLink = document.querySelector ("#celsius");
+celsLink.addEventListener("ckick", displayCels);
