@@ -47,6 +47,23 @@ h1 {
 #dicription {
   font-size: 16px;
 }
+#temperature {
+  font-size: 36px;
+}
+.unit {
+  font-size: 13px;
+  position: relative;
+  top: -18px;
+}
+#celsius,
+#fahrenheit {
+  color: #5199d7;
+  text-decoration: none;
+}
+#celsius:hover,
+#fahrenheit:hover {
+  text-decoration: underline;
+}
 h3 {
   font-size: 16px;
   margin: 20px 0px;
