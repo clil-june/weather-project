@@ -67,4 +67,4 @@ let fahrLink = document.querySelector("#fahrenheit");
 fahrLink.addEventListener("click", displayFahr);
 
 let celsLink = document.querySelector ("#celsius");
-celsLink.addEventListener("ckick", displayCels);
+celsLink.addEventListener("click", displayCels);
