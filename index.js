@@ -66,7 +66,7 @@ function showLocalWeather (response){
   let cityName = document.querySelector("#location");
   let locationName = (response.data.name);
   cityName.innerHTML=(locationName);
-
+  
   let temperature = document.querySelector("#temperature");
   temp=(response.data.main.temp);
   temperature.innerHTML=Math.round(`${temp}`)
