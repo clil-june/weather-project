@@ -4,12 +4,12 @@ let days = [`Sunday`, `Monday`, `Tuesday`, `Wednesday`, `Thursday`, `Friday`, `S
 let day = days[now.getDay()];
 let hour=now.getHours();
 let minute = now.getMinutes();
-let h2 = document.querySelector("#current-time");
+let h3 = document.querySelector("#current-time");
 if (minute < 10){
-  h2.innerHTML= (`${day}, ${hour}:0${minute}`);
+  h3.innerHTML= (`${day}, ${hour}:0${minute}`);
 }
 else{
-h2.innerHTML= (`${day}, ${hour}:${minute}`);
+h3.innerHTML= (`${day}, ${hour}:${minute}`);
 }
 
 function search (event){

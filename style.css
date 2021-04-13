@@ -26,10 +26,6 @@ body {
   margin: 8px;
   padding: 8px;
 }
-.searchButton {
-  border-radius: 20px;
-  color: #5199d7;
-}
 #your-location {
   color: #ea4335;
   border-radius: 15px;
